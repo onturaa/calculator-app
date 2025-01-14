@@ -1,0 +1,84 @@
+body {
+    font-size: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-style: oblique;
+}
+
+.shell {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    border: 3px solid dimgrey;
+    background-color: cornflowerblue;
+}
+
+.display {
+    background-color: floralwhite;
+    padding: 10px 24px;
+    border: 3px solid dimgrey;
+    color: black;
+    box-sizing: border-box;
+    width: 460px;
+    height: 75px;
+    text-align: right;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+button {
+    font-size: inherit;
+    font-family: inherit;
+    background-color: floralwhite;
+    border: 3px solid dimgrey;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 12px;
+    padding: 20px;
+}
+
+.btn-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.number-btn,
+#clear-btn,
+#enter-btn,
+.operator-btn {
+    min-height: 100px;
+    max-height: 100px;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+#clear-btn {
+    font-size: 18px;
+}
